@@ -33,7 +33,7 @@ export default function Cryptos() {
                   <h2>{crypt.name}</h2>
                 </div>
                 <div className="value">
-                  <h3>{formatMoney(crypt.current_price)}</h3>
+                  <h3>{formatMoney(crypt.current_price)}2</h3>
                 </div>
               </ListCard>
             </Link>
